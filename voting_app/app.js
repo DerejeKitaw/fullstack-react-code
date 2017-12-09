@@ -17,23 +17,24 @@ const OrderButton = React.createClass({
       </span>
     )
   }
-})
+});
 /**
  * Product
  */
-const Product = React.createClass({
+class Product extends React.Component {
   constructor(props) {
     super(props); // always call this first
     // custom method bindings here
     this.handleUpVote = this.handleUpVote.bind(this);
-  },
-  handleUpVote: function () {
+    this.handleDownVote= this.handleDownVote.bind(this);
+  }
+  handleUpVote() {
     this.props.onVoteUp(this.props.id)
-  },
-  handleDownVote: function () {
+  }
+  handleDownVote() {
     this.props.onVoteDown(this.props.id)
-  },
-  render: function () {
+  }
+  render(){
     return(
       <div className="item">
         <div className="image">
@@ -62,18 +63,13 @@ const Product = React.createClass({
       </div>
     );
   }
-});
+};
 const Hello = React.createClass({
   render: function(){
     return (<h3>Eka</h3>)
   }
 })
 const ProductList = React.createClass({
-  constructor(props){
-this.state = {
-  products: [],
-};
-},
   getInitialState: function () {
     return {
       products: []

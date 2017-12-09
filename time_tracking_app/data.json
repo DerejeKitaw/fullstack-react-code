@@ -2,15 +2,16 @@
     {
         "title": "Mow the lawn",
         "project": "House Chores",
-        "elapsed": 5460551,
+        "elapsed": 5515410,
         "id": "0a4a79cb-b06d-4cb1-883d-549a1e3b66d7",
         "runningSince": null
     },
     {
         "title": "Clear paper jam",
         "project": "Office Chores",
-        "elapsed": 1273998,
-        "id": "a73c1d19-f32d-4aff-b470-cea4e792406a"
+        "elapsed": 1276771,
+        "id": "a73c1d19-f32d-4aff-b470-cea4e792406a",
+        "runningSince": null
     },
     {
         "title": "Ponder origins of universe",
@@ -23,7 +24,14 @@
         "title": "teste",
         "project": "projeto de teste",
         "id": "f193dc66-fee7-4d5e-a2e8-8cb38e46013e",
-        "elapsed": 3747,
+        "elapsed": 45970,
+        "runningSince": null
+    },
+    {
+        "title": "best of the best",
+        "project": "yest",
+        "id": "d1f8e095-c4ed-4a69-9913-2c30b97bda63",
+        "elapsed": 25687,
         "runningSince": null
     }
 ]
